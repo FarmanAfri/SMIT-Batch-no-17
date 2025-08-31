@@ -1,71 +1,208 @@
-//Class no 5
-
-// Array
-
-// / var cities = ["apple","banana","mango","lemon",];
-
-// console.log(cities[3])
-
-// var good = ["farman","khan","afridi","hammad","waleed","jafar"];
-// console.log(good[4]) //b ye hume index our lenth batata hai
+//----------------- Date And Time----------------
+//------------------------chap no 31-------------
+//PM------Full Form----------Post Meridiem-----------
+//AM------Full Form----------Ante  Meridiem----------
+//--------------PM is Before Night---Sham ke 7 bajhe se pehle----------
 
 
-// var small = ["farman","khan","afridi","shafiq","ali","uzair"];
+// var todayDate = new Date()
 
-// small[6] = "waleed"
-// small[7] = "khalid"
-// console.log(small);
+// var todayInString = todayDate.toString();
 
-// var arr = ["a","b"];
+// var todayDate = todayInString.slice(1,5)
 
-// var newArray = arr ;
+// console.log(todayDate)
 
-// newArray = ["c","d"];
+// var todayDate = new Date();
+// console.log(todayDate.getDate())
 
-// console.log(arr);
-// // console.log(newArray)
+// var todayDate = new Date();
+// console.log(todayDate.getFullYear())
 
-// var arr = [1,2,3,4,5,]
+// var todayDate = new Date();
+// console.log(todayDate.getTime())
 
-// // arr.push(6) //add in last
-// // arr.unshift(0) //add in last
+// var todayDate = new Date();
+// console.log(todayDate.getMonth())
 
-// // arr.pop()
-// // arr.pop()
-// //arr.shift
+// var todayDate = new Date();
+// console.log(todayDate.getSeconds())
 
+// var todayDate = new Date();
+// console.log(todayDate.getDay())
 
-// console.log(arr.splice(1,3, "a"))
+// var  main = 34535;
+// console.log(main.toString())
 
-// // console.log(arr)
+// slice hume copy deta hai
 
-// var arr = ["frman","khan","good","home","farooq"]
+// var todayDate = new Date();
 
-// // arr.splice(1,1, "khan","saddiq")
-// // arr.slice(0,2)
-// console.log(arr)
-// alert("Farman Khan")
+// var todayInString = todayDate.toString();
 
-// var arr = ["a","b","c","d","e","f"]
-// console.log(arr.slice(2,3)) //slice make new array
-// 0 and 2 are indexes
-
-// slice (1,3) 1,2
-// (1,3) = (3-1)
-
-// var arr = ["a","b","c","d"]
-// console.log(arr.indexOf("a"))  //-1 means no value  includes
-// console.log(arr.includes("a")) // includes return boolean
+// var todayDate = todayInString.slice(0,6)
 
 
-// var userName = "Farman";
-// console.log(userName.indexOf("r"))
-// console.log(userName.includes("r"))
+// console.log(todayDate)
 
-//ES6
-// var arr = ["a","b","c"];
-// var newArray = ["khan", ...arr] // spread operator
-// console.log(newArray)
+
+var days = ["sunday","monday","tuesday"];
+
+var todayDate = new Date();
+
+// var vocam = todayDate.getDate()
+// 
+// var nameOftoday = days[todayDate]
+
+console.log(days[todayDate.getDay()])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
