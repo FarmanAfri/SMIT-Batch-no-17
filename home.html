@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step by Step CV</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   
+  </style>
 </head>
 <body>
+
+  <h2  style="margin: 0px 0px 0px 600px; font-style: oblique; color: beige; font-size: larger; padding: 15px;">My CV</h2>
+  <div class="cv-box">
+    <img src="./WhatsApp Image 2025-09-13 at 04.09.08_a6456c0b.jpg" alt="Profile Picture">
+
     
+    <button onclick="showAboutBtn()">Show More</button>
+
+    
+    <div id="aboutBtn" class="hidden">
+      <button onclick="showAbout()">About Me</button>
+    </div>
+
+    
+    <div id="detailsBtn" class="hidden">
+      <button onclick="showDetails()">My Details</button>
+    </div>
+
+    
+    <div id="aboutDetails" class="details hidden">
+      <p><strong>Name:</strong> Farman Afridi</p>
+      <p><strong>Role:</strong> Web & Mobile App Developer</p>
+      <p>I am passionate about technology and app development, always learning new skills.</p>
+    </div>
 
 
+    <div id="myDetails" class="details hidden">
+      <p><strong>Email:</strong> farman.afridi.257005@gmail.com</p>
+      <p><strong>Phone:</strong> 03353131894</p>
+      <p><strong>Location:</strong> Pakistan</p>
+    </div>
+  </div>
 
-    <script src="app.js"></script>
+  <script src="app.js"></script>
+
 </body>
 </html>
